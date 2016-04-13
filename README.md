@@ -20,17 +20,17 @@ overwritten with data, returned by your CGI script.
 
 `<div id="target">`
 
-  `<script language="javascript">`
+`  <script language="javascript">`
 
-    `<!-- Don't forget put _your_ cgi path here -->`
+`    <!-- Don't forget put _your_ cgi path here -->`
 
-    `xcgi("target","cgi-bin/example.cgi");`
+`    xcgi("target","cgi-bin/example.cgi");`
 
-   `</script>`
+`   </script>`
 
-   `Loading... `
+`   Loading...`
 
-   `</div>`
+`</div>`
 
  In your CGI script you should do whatever you want, but return data as plain text.
  See *example* folder for sample working script.
