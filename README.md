@@ -35,7 +35,7 @@ overwritten with data, returned by your CGI script.
  In your CGI script you should do whatever you want, but return data as plain text.
  See *example* folder for sample working script.
 
- ## Running the bundled example
+## Running the bundled example
 
  * Copy example.cgi to your cgi-bin, adjust your Perl interpreter and set correct permissions.
  * Copy index.html to your document root
