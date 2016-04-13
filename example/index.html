@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<!-- XCGI BEGIN -->
+          <script src="js/xcgi.js" language="javascript" type="text/javascript"></script>
+        <!-- XCGI END -->
+
+           <title>xCGI test page</title>
+
+       	
+	</head>
+
+	<body>
+		<div id="target">
+                   <script language="javascript"> 
+                    <!-- Don't forget put _your_ cgi path here -->
+                      xcgi("target","cgi-bin/example.cgi");
+                  </script>
+                    Loading...
+                </div>
+	</body>
+        <!-- This is just for test, that example is not screwed up..." -->
+        <script language=""javascript">
+                   
+                if ( typeof xcgi != 'function') alert('You forgot to copy "xcgi.js" to "js" folder');
+        </script>
+</html>
